@@ -147,7 +147,7 @@ footer {
 
 .footer__logo {
     max-width: 400px;
-    margin-bottom: 16px;
+    margin: 16px 0 16px 0;
 }
 
 .footer__links {
@@ -162,13 +162,13 @@ footer {
     margin-bottom: 24px;
 }
 
-@media (max-width:728px;) {
+@media (max-width: 728px) {
+
     .row{
         flex-direction: column;
     }
     .home__description {
         margin-bottom: 24px;
-
     }
 
     .home__description--button{
